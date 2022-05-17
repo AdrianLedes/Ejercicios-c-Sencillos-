@@ -8,6 +8,7 @@ Alternativamente, si alquila el automóvil por 3 o más días, obtiene $ 20 de d
 /*Esta line realmente solo sirve para que el ejerccio se mas intereactivo, puede omitirse y darle el valor desde la variable "dias"*/
 Console.WriteLine("Introduce los dias que rentaras el automovil: ");
 
+/* Dandole el valor desde la variable dias podemos saltar el paso de convertir un string a un int*/
 int dias = Int32.Parse(Console.ReadLine());
 int dia = 40;
 int total = 0;
